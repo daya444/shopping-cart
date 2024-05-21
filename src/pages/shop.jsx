@@ -18,7 +18,7 @@ export const Homepage = () => {
         ))}
       </div>
       <div className='checkout'>
-        <button onClick={() => Navigate('/cart')} style = {{textAlign:'center'}} > Go to cart</button>
+        <button onClick={() => Navigate('/cart')} > Go to cart</button>
       </div>
 
     </div>
